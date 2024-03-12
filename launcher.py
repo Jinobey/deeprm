@@ -155,7 +155,7 @@ def main():
     # elif type_exp == 'q_re':
     #     q_re.launch(pa, q_resume, render)
     else:
-        print("Error: unkown experiment type " + str(type_exp))
+        print(("Error: unkown experiment type " + str(type_exp)))
         exit(1)
 
 
